@@ -1,30 +1,27 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-GB">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Second Bell | The Health Side of Academic Performance</title>
-  <meta name="description" content="Second Bell helps school leaders see how physiological and psychological wellbeing shapes attention, learning endurance, and academic performance.">
+  <meta name="description" content="Second Bell is a school health and wellbeing programme by RECOUP Health. Preventive screening, health education, and specialist support help schools identify health-related barriers to learning.">
   <link rel="canonical" href="/second-bell/">
   <meta property="og:title" content="Second Bell | The Health Side of Academic Performance">
-  <meta property="og:description" content="The health side of academic performance. A school program by RECOUP Health.">
+  <meta property="og:description" content="Second Bell is a school health and wellbeing programme by RECOUP Health. Preventive screening, health education, and specialist support help schools identify health-related barriers to learning.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="/second-bell/">
-  <meta property="og:image" content="/second-bell/assets/images/hero-child.png">
-  <meta property="og:image:alt" content="A smiling school child in a yellow hoodie lifts red glasses and holds two books">
+  <meta property="og:image" content="/second-bell/assets/illustrations/hero.webp">
+  <meta property="og:image:alt" content="Two students with school bags walking through a sunlit school courtyard">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Second Bell | The Health Side of Academic Performance">
-  <meta name="twitter:description" content="Physiological and psychological wellbeing shape attention, learning endurance, and academic performance.">
-  <meta name="twitter:image" content="/second-bell/assets/images/hero-child.png">
-  <meta name="theme-color" content="#f4eefb">
+  <meta name="twitter:description" content="Second Bell is a school health and wellbeing programme by RECOUP Health. Preventive screening, health education, and specialist support help schools identify health-related barriers to learning.">
+  <meta name="twitter:image" content="/second-bell/assets/illustrations/hero.webp">
+  <meta name="theme-color" content="#fbf8f3">
   <link rel="icon" href="assets/icons/favicon.svg" type="image/svg+xml">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="preload" as="image" href="assets/images/hero-child.png">
-  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@700;800&family=Source+Sans+3:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;600;700&family=Source+Serif+4:opsz,wght@8..60,600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/global.css">
-  <link rel="stylesheet" href="css/animations.css">
-  <link rel="stylesheet" href="css/responsive.css">
   <script>document.documentElement.classList.add("js")</script>
   <script type="application/ld+json">
   {
@@ -32,11 +29,11 @@
     "@type": "WebPage",
     "name": "Second Bell | The Health Side of Academic Performance",
     "url": "/second-bell/",
-    "description": "Second Bell helps schools connect classroom signals, home changes, and clinical support.",
+    "description": "Second Bell is a school health and wellbeing programme by RECOUP Health: preventive screening, health education, teacher training, and specialist support.",
     "about": {
       "@type": "Service",
       "name": "Second Bell",
-      "serviceType": "School health program",
+      "serviceType": "School health programme",
       "provider": {
         "@type": "MedicalOrganization",
         "name": "RECOUP Health",
@@ -51,413 +48,531 @@
 <body>
   <a class="skip" href="#content">Skip to content</a>
   <header class="site-header">
-    <div class="scroll-progress" aria-hidden="true"><span data-progress></span></div>
     <div class="wrap header-bar">
       <a class="brand" href="./">
-        <img class="brand-logo" src="assets/logo/second-bell-logo.jpg" alt="Second Bell" width="1080" height="1080">
+        <img src="assets/logo/second-bell-logo-wide.webp" alt="Second Bell, home" width="360" height="209">
         <span class="brand-fallback" hidden>Second Bell</span>
       </a>
       <nav class="nav-primary" aria-label="Primary">
-        <a href="./" aria-current="page">Overview</a>
-        <a href="framework/">Framework</a>
-        <a href="program/">Program</a>
-        <a href="interventions/">Interventions</a>
-        <a href="how-it-works/">How it works</a>
-        <a href="rshs-score/">RSHS</a>
+        <a href="./" aria-current="page">Home</a>
+        <a href="what-is-second-bell/">What Is Second Bell?</a>
+        <a href="framework/">The Framework</a>
+        <a href="who-it-is-for/">Who Is It For?</a>
+        <a href="why-second-bell/">Why Second Bell?</a>
+        <a href="how-it-works/">How It Works</a>
+        <a href="rshs-score/">School Health Score</a>
+        <a href="contact/">Contact</a>
       </nav>
       <div class="header-tools">
-        <a class="btn btn-primary" href="how-it-works/#talk">Enroll your school</a>
-        <button class="menu-btn" type="button" aria-expanded="false" aria-controls="menu">Menu</button>
+        <a class="btn btn-primary btn-sm" href="contact/">Discuss Your School's Needs</a>
+        <button class="menu-btn" type="button" aria-expanded="false" aria-controls="menu"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M4.5 7h15M4.5 12h15M4.5 17h15"/></svg>Menu</button>
       </div>
     </div>
   </header>
-  <div class="menu" id="menu" hidden role="dialog" aria-modal="true" aria-labelledby="menu-title">
-    <div class="menu-bar">
-      <p class="kicker" id="menu-title">Menu</p>
-      <button class="menu-close" type="button">Close</button>
+  <div class="menu" id="menu" hidden role="dialog" aria-modal="true" aria-label="Site menu">
+    <div class="wrap menu-bar">
+      <a class="brand" href="./"><img src="assets/logo/second-bell-logo-wide.webp" alt="Second Bell, home" width="360" height="209"></a>
+      <button class="menu-close" type="button"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M6.5 6.5l11 11M17.5 6.5l-11 11"/></svg>Close</button>
     </div>
-    <nav aria-label="Mobile">
-      <a href="./" aria-current="page">Overview</a>
-      <a href="framework/">Framework</a>
-      <a href="program/">Program</a>
+    <nav class="wrap" aria-label="Mobile">
+      <a href="./" aria-current="page">Home</a>
+      <a href="what-is-second-bell/">What Is Second Bell?</a>
+      <a href="framework/">The Framework</a>
+      <a href="who-it-is-for/">Who Is It For?</a>
+      <a href="why-second-bell/">Why Second Bell?</a>
+      <a href="program/">School Programme</a>
       <a href="interventions/">Interventions</a>
-      <a href="how-it-works/">How it works</a>
-      <a href="rshs-score/">RSHS</a>
-      <a class="menu-cta" href="how-it-works/#talk">Enroll your school</a>
+      <a href="how-it-works/">How It Works</a>
+      <a href="rshs-score/">School Health Score</a>
+      <a href="faq/">FAQ</a>
+      <a href="contact/">Contact</a>
+      <a class="btn btn-primary" href="contact/">Discuss Your School's Needs</a>
     </nav>
   </div>
 
   <main id="content">
     <section class="hero" aria-labelledby="hero-title">
       <div class="wrap hero-grid">
-        <div class="hero-copy">
-          <p class="kicker">For school leadership</p>
-          <h1 id="hero-title">Second Bell</h1>
-          <p class="subhead">The Health Side of Academic Performance</p>
-          <p class="lede">Physiological and psychological wellbeing shape attention, learning endurance, and academic performance. Second Bell helps a school see that side of the day, and act while there is still time.</p>
+        <div>
+          <p class="eyebrow">For school leadership</p>
+          <h1 id="hero-title">The Health Side of Academic Performance</h1>
+          <p class="lede">Students learn better when their health and wellbeing are supported. Second Bell helps schools identify health-related barriers to learning through preventive screening, education, and specialist support.</p>
           <div class="actions">
-            <a class="btn btn-primary" href="how-it-works/#talk">Enroll your school</a>
-            <a class="btn btn-secondary" href="framework/">Explore the Framework</a>
+            <a class="btn btn-primary" href="what-is-second-bell/">Explore Second Bell</a>
+            <a class="btn btn-secondary" href="who-it-is-for/">Check If It Fits Your School</a>
           </div>
+          <ul class="hero-points">
+            <li>A programme by RECOUP Health</li>
+            <li>Planned around your timetable</li>
+          </ul>
         </div>
-        <div class="hero-frame">
-          <img src="assets/images/hero-child.png" alt="A smiling school child in a yellow hoodie lifts red glasses and holds two books" width="864" height="1152">
-        </div>
-      </div>
-    </section>
-
-    <section class="section problem" id="problem" aria-labelledby="problem-title">
-      <div class="wrap problem-grid">
-        <div>
-          <p class="kicker">Under the score</p>
-          <h2 id="problem-title">The mark records the work. It does not show the day that made the work possible.</h2>
-        </div>
-        <div>
-          <p class="lede">Focus can slip, a posture can fold, and stress can be read as behavior, while the academic result still looks ordinary. Those are health signals. They sit underneath performance.</p>
-          <p class="next-step"><a href="how-it-works/#talk">Enroll your school</a></p>
+        <div class="hero-media">
+          <img src="assets/illustrations/hero.webp" alt="Illustration of a smiling teacher with a clipboard beside two students working together at a school desk" width="720" height="560" fetchpriority="high">
         </div>
       </div>
     </section>
 
-    <section class="section band-ivory" id="views" aria-labelledby="views-title">
+    <section class="section" id="what" aria-labelledby="what-title">
       <div class="wrap">
-        <div class="section-intro">
-          <p class="kicker">Three views</p>
-          <h2 id="views-title">The classroom sees it first</h2>
-          <p class="lede">Home often hears later. Health can assess what neither side can name alone.</p>
+        <div class="section-head">
+          <p class="eyebrow">About the programme</p>
+          <h2 id="what-title">What Is Second Bell?</h2>
+          <p class="lede">Second Bell is a school health and wellbeing programme by RECOUP Health. It connects what teachers notice in class, health screening on campus, and the right support, so schools can better understand the issues that may affect students during the school day.</p>
         </div>
-        <article class="view-lead">
-          <img src="assets/images/classroom-notice.jpg" alt="A teacher notices a student resting his head on his hand at a classroom desk" width="1152" height="864">
-          <div>
-            <p class="eyebrow">Teachers</p>
-            <h3>They notice the symptoms</h3>
-            <p>Behavior shifts, slouching, lack of focus. Teachers are often first. They cannot diagnose the cause.</p>
-          </div>
-        </article>
-        <div class="view-pair">
-          <article class="view-parent">
-            <img src="assets/images/home-evening.jpg" alt="A parent and child talking together at home in the evening" width="1152" height="864">
-            <div>
-              <p class="eyebrow">Parents</p>
-              <h3>Often months later</h3>
-              <p>Parents often learn through academic reports, after an issue has been developing for months.</p>
+        <ul class="grid grid-3">
+          <li class="card">
+            <span class="card-icon"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M12 19.5s-7-4.3-7-9.4A3.9 3.9 0 0 1 12 7.7a3.9 3.9 0 0 1 7 2.4c0 5.1-7 9.4-7 9.4z"/><path d="M8.2 12.2h2l1.1-1.9 1.6 3.4 1-1.5h1.9"/></svg></span>
+            <h3>Understand student health and wellbeing</h3>
+            <p>See how posture, sleep, stress, screen habits, and physical readiness show up in the school day.</p>
+          </li>
+          <li class="card">
+            <span class="card-icon"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><circle cx="10.75" cy="10.75" r="5.75"/><path d="M15 15l4.75 4.75"/></svg></span>
+            <h3>Identify concerns that may affect learning</h3>
+            <p>Non-invasive screening on campus helps flag concerns that can affect learning and participation early.</p>
+          </li>
+          <li class="card">
+            <span class="card-icon"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><circle cx="6" cy="17.5" r="2"/><circle cx="18" cy="6.5" r="2"/><path d="M8 17.5h6.5a3 3 0 0 0 0-6h-5a3 3 0 0 1 0-6H16"/></svg></span>
+            <h3>Connect students with the right support</h3>
+            <p>When a need is found, the school receives guidance on next steps, including specialist support where appropriate.</p>
+          </li>
+        </ul>
+        <div class="section-foot">
+          <a class="btn btn-secondary" href="what-is-second-bell/">Read the full overview</a>
+          <a class="text-link" href="program/">What the programme includes</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--warm" id="why-it-matters" aria-labelledby="matters-title">
+      <div class="wrap">
+        <div class="section-head">
+          <p class="eyebrow">Why it matters</p>
+          <h2 id="matters-title">What Happens Beyond the Report Card?</h2>
+          <p class="lede">A report card shows results. It does not always show what is behind them. Tiredness, posture, stress, or poor sleep can affect a student long before marks change, and each person around the student sees only part of the picture.</p>
+        </div>
+        <div class="grid grid-3">
+          <article class="perspective">
+            <div class="perspective-art"><img src="assets/illustrations/at-school.webp" alt="Illustration of a teacher gently checking on a tired student at his desk" width="800" height="600" loading="lazy" decoding="async"></div>
+            <div class="perspective-body">
+              <p class="eyebrow">At school</p>
+              <h3>Teachers notice the signs</h3>
+              <p>Teachers may notice fatigue, changes in attention, posture, or behaviour. They are often the first to see something, but they are not expected to diagnose the cause.</p>
             </div>
           </article>
-          <article class="view-health">
-            <img src="assets/images/wellbeing-talk.jpg" alt="An adult and a student talking together in a bright room" width="1152" height="864">
-            <div>
-              <p class="eyebrow">Health professionals</p>
-              <h3>They can assess the cause</h3>
-              <p>They can interpret what the classroom cannot name. Second Bell brings that reading into school. Leadership keeps the decisions.</p>
+          <article class="perspective">
+            <div class="perspective-art"><img src="assets/illustrations/at-home.webp" alt="Illustration of a parent and child talking on a sofa at home in the evening" width="800" height="600" loading="lazy" decoding="async"></div>
+            <div class="perspective-body">
+              <p class="eyebrow">At home</p>
+              <h3>Parents see daily changes</h3>
+              <p>Parents may notice changes in sleep, mood, energy, or daily habits. Often they only learn about a problem at school through a report, months later.</p>
+            </div>
+          </article>
+          <article class="perspective">
+            <div class="perspective-art"><img src="assets/illustrations/health.webp" alt="Illustration of a health professional with a clipboard talking with a student" width="800" height="600" loading="lazy" decoding="async"></div>
+            <div class="perspective-body">
+              <p class="eyebrow">Through health assessment</p>
+              <h3>Professionals assess the cause</h3>
+              <p>Qualified professionals can assess concerns that need further attention and recommend what should happen next.</p>
             </div>
           </article>
         </div>
-      </div>
-    </section>
-
-    <section class="section gap" id="gap" aria-labelledby="gap-title">
-      <div class="wrap">
-        <p class="kicker">The gap</p>
-        <h2 id="gap-title">Three true signals, kept apart</h2>
-        <ul class="slips">
-          <li>
-            <p class="eyebrow">Classroom</p>
-            <p>A behavior shift, a slouch, a loss of focus. Noticed, and left without a cause.</p>
-          </li>
-          <li>
-            <p class="eyebrow">Home</p>
-            <p>A report arrives later. By then the pattern has had months to settle.</p>
-          </li>
-          <li>
-            <p class="eyebrow">Health</p>
-            <p>A clinical reading that could explain the day, if it ever meets the school.</p>
-          </li>
-        </ul>
-      </div>
-    </section>
-
-    <section class="band-ink" id="connects" aria-labelledby="connects-title">
-      <div class="wrap connect">
-        <img src="assets/images/supported.jpg" alt="A teacher stands beside a student who looks up from an open book" width="1152" height="864">
-        <div>
-          <p class="kicker">Second Bell</p>
-          <h2 id="connects-title">Second Bell connects them</h2>
-          <p>The classroom, the home, and a clinical reading, held as one picture. The school keeps control of the day.</p>
-        </div>
-      </div>
-    </section>
-
-    <section class="section" id="signals" aria-labelledby="signals-title">
-      <div class="wrap">
-        <div class="section-intro">
-          <p class="kicker">Everyday signals</p>
-          <h2 id="signals-title">What the school day can show</h2>
-          <p class="lede">A teacher can notice these signals. They are not a diagnosis. The clinical names live on the framework page.</p>
-        </div>
-        <ul class="slips">
-          <li>
-            <p class="eyebrow">Attention &amp; Readiness</p>
-            <p>Focus slips when fatigue or cognitive overload is already in the way.</p>
-          </li>
-          <li>
-            <p class="eyebrow">Emotional Regulation</p>
-            <p>Stress and peer friction that a student cannot yet settle.</p>
-          </li>
-          <li>
-            <p class="eyebrow">Student Fatigue</p>
-            <p>Chronic tiredness that affects participation, memory, and activity.</p>
-          </li>
-          <li>
-            <p class="eyebrow">Digital Habits</p>
-            <p>Screens, sleep, and a day that has become too sedentary.</p>
-          </li>
-          <li>
-            <p class="eyebrow">Posture &amp; Physicality</p>
-            <p>Ergonomics, pain, and the stamina a long school day asks for.</p>
-          </li>
-          <li>
-            <p class="eyebrow">Student Wellbeing</p>
-            <p>Safety, mental health, and physiological balance, held as one picture.</p>
-          </li>
-        </ul>
-        <p class="next-step"><a href="framework/">Explore the Framework</a></p>
-      </div>
-    </section>
-
-    <section class="section band-cream" id="framework" aria-labelledby="framework-title">
-      <div class="wrap framework-tease">
-        <div>
-          <p class="kicker">Framework</p>
-          <h2 id="framework-title">The clinical names are a separate list</h2>
-          <p class="lede">These domains are related to the school-day signals. The names are not the same, and a difficulty in one place often travels into another.</p>
-          <img class="tease-photo" src="assets/images/posture-desk.jpg" alt="A student in a cream shirt and plum vest sits at a wooden school desk" width="1152" height="864">
-        </div>
-        <ol class="domain-index">
-          <li><a href="framework/#physical"><span class="domain-num">01</span><span class="domain-copy"><strong>Physical Readiness</strong><em>Posture and core stamina. Poor posture can shallow breath and bring fatigue by mid-morning.</em></span></a></li>
-          <li><a href="framework/#attention"><span class="domain-num">02</span><span class="domain-copy"><strong>Attention &amp; Effort</strong><em>Bandwidth after strain, sleep debt, and sensory overload.</em></span></a></li>
-          <li><a href="framework/#emotion"><span class="domain-num">03</span><span class="domain-copy"><strong>Emotional Balance</strong><em>Stress that looks like behavior, and is often read as defiance.</em></span></a></li>
-          <li><a href="framework/#digital"><span class="domain-num">04</span><span class="domain-copy"><strong>Digital &amp; Lifestyle</strong><em>Screens and broken sleep. Late devices can cut REM sleep and memory consolidation.</em></span></a></li>
-          <li><a href="framework/#adolescent"><span class="domain-num">05</span><span class="domain-copy"><strong>Adolescent Health</strong><em>Puberty needs guided care, not discipline alone.</em></span></a></li>
-          <li><a href="framework/#sports"><span class="domain-num">06</span><span class="domain-copy"><strong>Sports Safety</strong><em>Biomechanical screening. Early faults can prevent later chronic joint pain.</em></span></a></li>
-        </ol>
-      </div>
-      <div class="wrap">
-        <p class="next-step"><a href="framework/">Explore the Framework</a></p>
-      </div>
-    </section>
-
-    <section class="section" id="program" aria-labelledby="program-title">
-      <div class="wrap">
-        <div class="program-top">
+        <div class="connect-panel">
           <div>
-            <p class="kicker">Program</p>
-            <h2 id="program-title">What happens, who is in the room, what the school receives</h2>
-            <p class="lede">Preventive work sits inside the week the school already runs. The timetable stays. Leadership keeps the decisions.</p>
+            <h3>Second Bell brings these perspectives together.</h3>
+            <p>Instead of three separate views, the school gets one clearer picture, with a structured route from a classroom observation to proper assessment and support. School leadership makes the decisions at every step.</p>
           </div>
-          <img src="assets/images/class-support.jpg" alt="A student engaged in class while a teacher offers support beside the desk" width="1152" height="864">
+          <p class="connect-note"><strong>Please note:</strong> a classroom observation is not a medical diagnosis. It is a reason to look more closely, with the help of a qualified professional.</p>
         </div>
-        <ol class="pillar-list" data-reveal-stagger>
-          <li data-reveal>
-            <span class="pillar-icon">
-              <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
-                <path d="M9 4.2h6"/>
-                <rect x="6.25" y="6" width="11.5" height="13.5" rx="2"/>
-                <path d="M9.1 12.8l2 2 3.8-4"/>
-              </svg>
-            </span>
-            <div>
-              <h3>Preventive screening</h3>
-              <p>On campus and non-invasive, before a small issue becomes an academic one. EPHR mapping, postural and biomechanical checks, vision and basic hearing.</p>
-            </div>
-          </li>
-          <li data-reveal>
-            <span class="pillar-icon">
-              <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
-                <path d="M12 6.5C10.2 5.2 8 4.8 5.5 5.2v12.2c2.5-.4 4.7 0 6.5 1.3 1.8-1.3 4-1.7 6.5-1.3V5.2C16 4.8 13.8 5.2 12 6.5z"/>
-                <path d="M12 6.5v12.2"/>
-              </svg>
-            </span>
-            <div>
-              <h3>Health education workshops</h3>
-              <p>For students, teachers, and parents. Ergonomics, nutrition for brain development, and navigating puberty.</p>
-            </div>
-          </li>
-          <li data-reveal>
-            <span class="pillar-icon">
-              <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
-                <rect x="3.5" y="4.25" width="10" height="7.75" rx="1.25"/>
-                <path d="M5.7 6.9h5.6M5.7 9.15h3.4"/>
-                <circle cx="17.35" cy="9" r="2.05"/>
-                <path d="M13.7 18.75v-.55a3.65 3.65 0 0 1 3.65-3.65 3.65 3.65 0 0 1 3.65 3.65v.55"/>
-              </svg>
-            </span>
-            <div>
-              <h3>Teacher training</h3>
-              <p>How to tell a distracted student from a fatigued one. Learning differences, speech and motor delays, and behavioral health first aid.</p>
-            </div>
-          </li>
-          <li data-reveal>
-            <span class="pillar-icon">
-              <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
-                <circle cx="9" cy="7.25" r="2.15"/>
-                <path d="M4.6 18.75v-.9a4.15 4.15 0 0 1 4.15-4.15h.5a4.15 4.15 0 0 1 3.55 2"/>
-                <path d="M17.15 11.1v6.5M13.9 14.35h6.5"/>
-              </svg>
-            </span>
-            <div>
-              <h3>Specialist support</h3>
-              <p>When screening finds something the classroom cannot hold. Pediatric specialists, child psychologists, speech and occupational therapists.</p>
-            </div>
-          </li>
-        </ol>
-        <div class="receive" data-reveal-stagger>
-          <div data-reveal>
-            <h3>Who</h3>
-            <p>School leadership sets the fit. Teachers learn what they are already seeing. Students, teachers, and parents join the workshops. Specialists enter only when a need is clear.</p>
-          </div>
-          <div data-reveal>
-            <h3>What the school receives</h3>
-            <ol class="phase-line">
-              <li><span>Phase 1</span> Alignment and consultation, so academics are not disrupted.</li>
-              <li><span>Phase 2</span> Baseline screening and the first RECOUP School Health Score.</li>
-              <li><span>Phase 3</span> Routine integration. Reporting stays light. Control stays with the school.</li>
-            </ol>
-          </div>
-        </div>
-        <p class="promises">No disruption to academics. Minimal administrative burden. Schools retain full control.</p>
-        <p class="next-step"><a href="program/">See the school program</a></p>
-        <p class="next-step"><a href="how-it-works/">See how it works</a></p>
       </div>
     </section>
 
-    <section class="section band-lavender" id="support" aria-labelledby="support-title">
+    <section class="section" id="framework" aria-labelledby="framework-title">
       <div class="wrap">
-        <div class="section-intro">
-          <p class="kicker">Interventions</p>
-          <h2 id="support-title">A connected set, after screening finds a need</h2>
-          <p class="lede">These supports are specific. They follow a risk the screening has already highlighted.</p>
+        <div class="section-head">
+          <p class="eyebrow">The framework</p>
+          <h2 id="framework-title">Six Domains. A Broader View of Student Wellbeing.</h2>
+          <p class="lede">Explore the health and wellbeing areas that help schools understand the many factors that can affect a student's school day. The domains are connected: a difficulty in one, such as poor sleep, often affects another.</p>
         </div>
-        <ul class="slips">
-          <li>
-            <p class="eyebrow">Speech &amp; Language</p>
-            <p>Articulation, stuttering, and language delays that get in the way of class participation.</p>
-          </li>
-          <li>
-            <p class="eyebrow">Occupational Therapy</p>
-            <p>Fine motor skill, handwriting, sensory processing, and executive functioning.</p>
-          </li>
-          <li>
-            <p class="eyebrow">Behavioral Health</p>
-            <p>Anxiety, ADHD symptoms, emotional dysregulation, and severe exam stress.</p>
-          </li>
-          <li>
-            <p class="eyebrow">RH SPRINT</p>
-            <p>Sports health. Biomechanical screening, before an injury takes a student out of play.</p>
-          </li>
-          <li>
-            <p class="eyebrow">Digital Balance</p>
-            <p>Screen time, digital fatigue, and the sleep that learning depends on.</p>
-          </li>
-          <li>
-            <p class="eyebrow">Teacher Training</p>
-            <p>Learning differences, and how a classroom can adapt after screening.</p>
-          </li>
-        </ul>
-        <p class="next-step"><a href="interventions/">See the interventions</a></p>
+        <div class="explorer" data-switcher>
+          <div class="explorer-tabs" role="tablist" aria-label="Framework domains">
+            <button class="explorer-tab" type="button" role="tab" id="tab-physical" aria-controls="panel-physical" aria-selected="true" tabindex="0"><span class="card-num">01</span>Physical Readiness</button>
+            <button class="explorer-tab" type="button" role="tab" id="tab-attention" aria-controls="panel-attention" aria-selected="false" tabindex="-1"><span class="card-num">02</span>Attention &amp; Effort</button>
+            <button class="explorer-tab" type="button" role="tab" id="tab-emotion" aria-controls="panel-emotion" aria-selected="false" tabindex="-1"><span class="card-num">03</span>Emotional Balance</button>
+            <button class="explorer-tab" type="button" role="tab" id="tab-digital" aria-controls="panel-digital" aria-selected="false" tabindex="-1"><span class="card-num">04</span>Digital &amp; Lifestyle</button>
+            <button class="explorer-tab" type="button" role="tab" id="tab-adolescent" aria-controls="panel-adolescent" aria-selected="false" tabindex="-1"><span class="card-num">05</span>Adolescent Health</button>
+            <button class="explorer-tab" type="button" role="tab" id="tab-sports" aria-controls="panel-sports" aria-selected="false" tabindex="-1"><span class="card-num">06</span>Sports Safety</button>
+          </div>
+          <div class="explorer-panel" role="tabpanel" id="panel-physical" aria-labelledby="tab-physical">
+            <div class="explorer-art"><img src="assets/illustrations/domain-physical.webp" alt="Illustration of a student sitting upright at her desk beside a posture guide line" width="800" height="600" loading="lazy" decoding="async"></div>
+            <div class="explorer-body">
+              <span class="card-num">Domain 01 of 06</span>
+              <h3>Physical Readiness</h3>
+              <p>Posture, core strength, stamina, and whether a student can sit, focus, and take part without pain or discomfort.</p>
+              <p class="explorer-why"><strong>Why it matters</strong>Poor posture can limit how deeply a student breathes, which can bring on tiredness by mid-morning.</p>
+              <a class="text-link" href="framework/#physical">Read more about this domain</a>
+            </div>
+          </div>
+          <div class="explorer-panel" role="tabpanel" id="panel-attention" aria-labelledby="tab-attention">
+            <div class="explorer-art"><img src="assets/illustrations/domain-attention.webp" alt="Illustration of a student reading with focus, a lightbulb glowing beside him" width="800" height="600" loading="lazy" decoding="async"></div>
+            <div class="explorer-body">
+              <span class="card-num">Domain 02 of 06</span>
+              <h3>Attention &amp; Effort</h3>
+              <p>How much focus a student has left after physical strain, too little sleep, or sensory overload.</p>
+              <p class="explorer-why"><strong>Why it matters</strong>Ongoing tiredness can make it much harder for a child to keep their attention on a task.</p>
+              <a class="text-link" href="framework/#attention">Read more about this domain</a>
+            </div>
+          </div>
+          <div class="explorer-panel" role="tabpanel" id="panel-emotion" aria-labelledby="tab-emotion">
+            <div class="explorer-art"><img src="assets/illustrations/domain-emotion.webp" alt="Illustration of a calm student with a thought bubble showing a heart" width="800" height="600" loading="lazy" decoding="async"></div>
+            <div class="explorer-body">
+              <span class="card-num">Domain 03 of 06</span>
+              <h3>Emotional Balance</h3>
+              <p>Signs of stress, anxiety, or difficulty managing emotions that can show up as behaviour in the classroom.</p>
+              <p class="explorer-why"><strong>Why it matters</strong>Stress that goes unrecognised is often mistaken for defiance.</p>
+              <a class="text-link" href="framework/#emotion">Read more about this domain</a>
+            </div>
+          </div>
+          <div class="explorer-panel" role="tabpanel" id="panel-digital" aria-labelledby="tab-digital">
+            <div class="explorer-art"><img src="assets/illustrations/domain-digital.webp" alt="Illustration of a student in bed at night looking at a phone" width="800" height="600" loading="lazy" decoding="async"></div>
+            <div class="explorer-body">
+              <span class="card-num">Domain 04 of 06</span>
+              <h3>Digital &amp; Lifestyle</h3>
+              <p>How screen time, disrupted sleep, and inactive habits affect a student's performance at school.</p>
+              <p class="explorer-why"><strong>Why it matters</strong>Using devices late at night can reduce REM sleep, the stage of sleep that helps the brain store memories.</p>
+              <a class="text-link" href="framework/#digital">Read more about this domain</a>
+            </div>
+          </div>
+          <div class="explorer-panel" role="tabpanel" id="panel-adolescent" aria-labelledby="tab-adolescent">
+            <div class="explorer-art"><img src="assets/illustrations/domain-adolescent.webp" alt="Illustration of two older students chatting beside a growth chart" width="800" height="600" loading="lazy" decoding="async"></div>
+            <div class="explorer-body">
+              <span class="card-num">Domain 05 of 06</span>
+              <h3>Adolescent Health</h3>
+              <p>Awareness and support for students going through the physical and emotional changes of puberty.</p>
+              <p class="explorer-why"><strong>Why it matters</strong>Hormonal changes call for structured, caring guidance rather than discipline alone.</p>
+              <a class="text-link" href="framework/#adolescent">Read more about this domain</a>
+            </div>
+          </div>
+          <div class="explorer-panel" role="tabpanel" id="panel-sports" aria-labelledby="tab-sports">
+            <div class="explorer-art"><img src="assets/illustrations/domain-sports.webp" alt="Illustration of a student running across a school sports field" width="800" height="600" loading="lazy" decoding="async"></div>
+            <div class="explorer-body">
+              <span class="card-num">Domain 06 of 06</span>
+              <h3>Sports Safety</h3>
+              <p>Biomechanical screening, which checks how the body moves, to help prevent repeat injuries in active students.</p>
+              <p class="explorer-why"><strong>Why it matters</strong>Spotting movement problems early can help prevent long-term joint pain.</p>
+              <a class="text-link" href="framework/#sports">Read more about this domain</a>
+            </div>
+          </div>
+        </div>
+        <div class="section-foot">
+          <a class="btn btn-secondary" href="framework/">Explore the Full Framework</a>
+          <p class="small">Includes the everyday signals teachers may notice in class.</p>
+        </div>
       </div>
     </section>
 
-    <section class="section score-reveal" id="score" aria-labelledby="score-title">
-      <div class="wrap score-reveal-grid">
-        <p class="score-huge" data-score="85">85</p>
+    <section class="section section--tint" id="who" aria-labelledby="who-title">
+      <div class="wrap audience-grid">
         <div>
-          <p class="kicker">RSHS</p>
-          <h2 id="score-title">RECOUP School Health Score</h2>
-          <p class="lede">85 is the overview mark. It is not a measured result from a named school. The score page shows how a campus result is read, and what leadership receives.</p>
+          <div class="section-head">
+            <p class="eyebrow">Who it is for</p>
+            <h2 id="who-title">Is Second Bell Right for Your School?</h2>
+            <p class="lede">Second Bell is designed for schools that want to take a more structured approach to student health and wellbeing. It may be a good fit for:</p>
+          </div>
+          <ul class="audience-list">
+            <li><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="8.25"/><path d="M8.4 12.3l2.4 2.4 4.8-5"/></svg><span>School owners and management</span></li>
+            <li><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="8.25"/><path d="M8.4 12.3l2.4 2.4 4.8-5"/></svg><span>Principals and school leadership teams</span></li>
+            <li><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="8.25"/><path d="M8.4 12.3l2.4 2.4 4.8-5"/></svg><span>Schools looking for preventive health screening</span></li>
+            <li><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="8.25"/><path d="M8.4 12.3l2.4 2.4 4.8-5"/></svg><span>Schools interested in teacher and parent education</span></li>
+            <li><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="8.25"/><path d="M8.4 12.3l2.4 2.4 4.8-5"/></svg><span>Schools seeking a structured way to understand student health and wellbeing needs</span></li>
+          </ul>
+        </div>
+        <aside class="enrol-box" aria-labelledby="enrol-title">
+          <div class="enrol-art"><img src="assets/illustrations/consult.webp" alt="Illustration of a school principal and a RECOUP Health professional talking across a table" width="800" height="600" loading="lazy" decoding="async"></div>
+          <h3 id="enrol-title">How enrolment works</h3>
+          <ol>
+            <li><span>School leadership starts the enrolment process.</span></li>
+            <li><span>An initial consultation covers your needs, priorities, and timetable.</span></li>
+            <li><span>Together, you decide whether the programme suits your school.</span></li>
+          </ol>
+          <p class="small">Parents and students cannot enrol a school on their own. If you are a parent, you are welcome to share Second Bell with your school's leadership.</p>
+          <a class="btn btn-primary" href="contact/">Discuss Your School's Needs</a>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section" id="why" aria-labelledby="why-title">
+      <div class="wrap">
+        <div class="section-head">
+          <p class="eyebrow">The value for your school</p>
+          <h2 id="why-title">Why Choose Second Bell?</h2>
+        </div>
+        <ol class="benefit-grid">
+          <li class="benefit"><span class="card-num">01</span><h3>Earlier identification</h3><p>Help identify potential health and wellbeing concerns that may otherwise go unnoticed.</p></li>
+          <li class="benefit"><span class="card-num">02</span><h3>A broader understanding</h3><p>Look beyond academic results to the factors that can affect attention, energy, participation, and comfort.</p></li>
+          <li class="benefit"><span class="card-num">03</span><h3>Preventive support</h3><p>Combine appropriate screening with education, and recommendations for further assessment when needed.</p></li>
+          <li class="benefit"><span class="card-num">04</span><h3>Support for teachers</h3><p>Help teachers recognise possible concerns, without expecting them to diagnose health conditions.</p></li>
+          <li class="benefit"><span class="card-num">05</span><h3>Better-informed decisions</h3><p>Give school leadership relevant health and wellbeing insights to guide appropriate next steps.</p></li>
+          <li class="benefit"><span class="card-num">06</span><h3>A practical school fit</h3><p>Activities are planned around the existing timetable, with minimal administrative work. Leadership stays in control.</p></li>
+        </ol>
+        <div class="section-foot">
+          <a class="btn btn-secondary" href="why-second-bell/">Explore why schools enrol</a>
+          <a class="text-link" href="who-it-is-for/">Is it right for your school?</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--warm" id="includes" aria-labelledby="includes-title">
+      <div class="wrap">
+        <div class="section-head">
+          <p class="eyebrow">The programme</p>
+          <h2 id="includes-title">What Does Second Bell Include?</h2>
+          <p class="lede">Four connected parts, delivered on campus and planned around the school week.</p>
+        </div>
+        <div class="grid grid-2">
+          <article class="card include-card">
+            <div class="include-art"><img src="assets/illustrations/prog-screening.webp" alt="Illustration of a health professional pointing to an eye chart during a friendly screening" width="800" height="600" loading="lazy" decoding="async"></div>
+            <div class="card-head"><span class="card-icon"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M9 4.2h6"/><rect x="6.25" y="6" width="11.5" height="13.5" rx="2"/><path d="M9.1 12.8l2 2 3.8-4"/></svg></span><h3>Preventive health screening</h3></div>
+            <p>Non-invasive checks carried out on campus, so small issues can be noticed before they affect learning.</p>
+            <ul class="check-list"><li>EPHR mapping</li><li>Postural and biomechanical checks</li><li>Vision and basic hearing checks</li></ul>
+          </article>
+          <article class="card include-card">
+            <div class="include-art"><img src="assets/illustrations/prog-workshop.webp" alt="Illustration of a presenter leading a health workshop for students and a parent" width="800" height="600" loading="lazy" decoding="async"></div>
+            <div class="card-head"><span class="card-icon"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M12 6.5C10.2 5.2 8 4.8 5.5 5.2v12.2c2.5-.4 4.7 0 6.5 1.3 1.8-1.3 4-1.7 6.5-1.3V5.2C16 4.8 13.8 5.2 12 6.5z"/><path d="M12 6.5v12.2"/></svg></span><h3>Health education workshops</h3></div>
+            <p>Practical sessions for students, teachers, and parents, so healthy habits continue beyond the school gate.</p>
+            <ul class="check-list"><li>Ergonomics and posture</li><li>Nutrition for brain development</li><li>Navigating puberty</li></ul>
+          </article>
+          <article class="card include-card">
+            <div class="include-art"><img src="assets/illustrations/prog-training.webp" alt="Illustration of two teachers reviewing a tablet together during training" width="800" height="600" loading="lazy" decoding="async"></div>
+            <div class="card-head"><span class="card-icon"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><rect x="3.5" y="4.25" width="10" height="7.75" rx="1.25"/><path d="M5.7 6.9h5.6M5.7 9.15h3.4"/><circle cx="17.35" cy="9" r="2.05"/><path d="M13.7 18.75v-.55a3.65 3.65 0 0 1 3.65-3.65 3.65 3.65 0 0 1 3.65 3.65v.55"/></svg></span><h3>Teacher training</h3></div>
+            <p>Helps teachers recognise possible concerns, such as telling a distracted student from a tired one, without expecting them to diagnose.</p>
+            <ul class="check-list"><li>Learning differences</li><li>Speech and motor delays</li><li>Behavioural health first aid</li></ul>
+          </article>
+          <article class="card include-card">
+            <div class="include-art"><img src="assets/illustrations/prog-specialist.webp" alt="Illustration of a specialist meeting a student and parent across a table" width="800" height="600" loading="lazy" decoding="async"></div>
+            <div class="card-head"><span class="card-icon"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="7.25" r="2.15"/><path d="M4.6 18.75v-.9a4.15 4.15 0 0 1 4.15-4.15h.5a4.15 4.15 0 0 1 3.55 2"/><path d="M17.15 11.1v6.5M13.9 14.35h6.5"/></svg></span><h3>Specialist support when appropriate</h3></div>
+            <p>A clear route to further assessment when screening shows that a student may need more help.</p>
+            <ul class="check-list"><li>Paediatric specialists</li><li>Child psychologists</li><li>Speech and occupational therapists</li></ul>
+          </article>
+        </div>
+        <div class="related">
+          <div>
+            <h3>Targeted support after screening</h3>
+            <ul class="chips">
+              <li>Speech &amp; Language</li>
+              <li>Occupational Therapy</li>
+              <li>Behavioural Health</li>
+              <li>RH SPRINT sports health</li>
+              <li>Digital Balance</li>
+              <li>Teacher Training</li>
+            </ul>
+          </div>
           <div class="actions">
-            <a class="btn btn-primary" href="rshs-score/">Understand the RSHS Score</a>
+            <a class="text-link" href="program/">The school programme</a>
+            <a class="text-link" href="interventions/">All interventions</a>
           </div>
         </div>
       </div>
     </section>
 
-    <section class="section band-ivory" id="impact" aria-labelledby="impact-title">
+    <section class="section" id="how" aria-labelledby="how-title">
       <div class="wrap">
-        <div class="section-intro">
-          <p class="kicker">Outcomes</p>
-          <h2 id="impact-title">What the school can expect</h2>
+        <div class="section-head">
+          <p class="eyebrow">How it works</p>
+          <h2 id="how-title">Getting Started Is Simple.</h2>
+          <p class="lede">The programme runs in three phases, and the school stays in charge of each one.</p>
         </div>
-        <div class="outcomes" data-reveal-stagger>
-          <img class="outcome-photo" data-reveal src="assets/images/hero-day.jpg" alt="Two students with school bags in a sunlit courtyard" width="1280" height="720">
-          <article class="outcome-main" data-reveal>
-            <p class="eyebrow">01</p>
-            <h3>Enhanced Endurance</h3>
-            <p>Attention and sustained learning through the day.</p>
-          </article>
-          <article class="outcome-note outcome-early" data-reveal>
-            <h3>Early Detection</h3>
-            <p>Physiological or psychological barriers identified earlier.</p>
-          </article>
-          <article class="outcome-note outcome-gold" data-reveal>
-            <h3>Reduced Disruptions</h3>
-            <p>Fewer behavioral disruptions, through support for emotional regulation.</p>
-          </article>
-          <article class="outcome-wide" data-reveal>
-            <h3>Actionable Insights</h3>
-            <p>Wellbeing data and campus trends for leadership.</p>
-          </article>
+        <ol class="steps">
+          <li class="step">
+            <div class="step-top"><span class="step-num" aria-hidden="true">1</span><span class="step-phase">Phase 1</span></div>
+            <h3><span class="visually-hidden">Step 1: </span>Initial discussion</h3>
+            <p>A conversation with school leadership about your school's culture, priorities, timetable, and the health measures already in place.</p>
+          </li>
+          <li class="step">
+            <div class="step-top"><span class="step-num" aria-hidden="true">2</span><span class="step-phase">Phase 2</span></div>
+            <h3><span class="visually-hidden">Step 2: </span>Baseline assessment</h3>
+            <p>Structured, non-invasive screening on campus, planned around classes. It covers posture, biomechanics, developmental markers, and readiness to learn.</p>
+          </li>
+          <li class="step">
+            <div class="step-top"><span class="step-num" aria-hidden="true">3</span><span class="step-phase">Phase 2</span></div>
+            <h3><span class="visually-hidden">Step 3: </span>Understand the findings</h3>
+            <p>Leadership receives the first RECOUP School Health Score, with campus insights, a domain-by-domain view, and early identification of possible risks.</p>
+          </li>
+          <li class="step">
+            <div class="step-top"><span class="step-num" aria-hidden="true">4</span><span class="step-phase">Phase 3</span></div>
+            <h3><span class="visually-hidden">Step 4: </span>Plan the next steps</h3>
+            <p>Agree on recommendations together. Workshops, teacher guidance, and specialist support then become part of the school routine, with light reporting.</p>
+          </li>
+        </ol>
+        <div class="section-foot">
+          <ul class="chips">
+            <li>No disruption to academics</li>
+            <li>Minimal administrative burden</li>
+            <li>School leadership stays in control</li>
+          </ul>
+          <a class="text-link" href="how-it-works/">See how it works in detail</a>
         </div>
       </div>
     </section>
 
-    <section class="section band-lavender" id="enroll" aria-labelledby="enroll-title">
-      <div class="wrap">
-        <p class="kicker">Enroll your school</p>
-        <h2 id="enroll-title">Start with whether it fits</h2>
-        <p class="lede">Enrollment is a leadership decision. It begins with culture fit: no disruption to academics, minimal administrative burden, and the school keeps control. Alignment comes first, then screening, then integration with the week you already run.</p>
-        <div class="actions">
-          <a class="btn btn-primary" href="how-it-works/#talk">Enroll your school</a>
+    <section class="section section--tint" id="score" aria-labelledby="score-title">
+      <div class="wrap score-grid">
+        <div>
+          <div class="section-head">
+            <p class="eyebrow">RECOUP School Health Score</p>
+            <h2 id="score-title">Understand Your School's Health and Wellbeing Picture.</h2>
+            <p class="lede">The RECOUP School Health Score (RSHS) brings screening observations together into one score out of 100. Individual results are read together, so leadership can see campus-wide trends and decide where support is most needed.</p>
+          </div>
+          <h3>What leadership receives</h3>
+          <ul class="deliver-list">
+            <li><span class="card-icon"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M4.5 19.5h15"/><path d="M7.5 16v-4M12 16V8M16.5 16v-6"/></svg></span><div><h3>Campus insights</h3><p>An overview of health and wellbeing trends across the school.</p></div></li>
+            <li><span class="card-icon"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M12 4.5l8 4-8 4-8-4 8-4z"/><path d="M4 12.5l8 4 8-4"/><path d="M4 16.5l8 4 8-4"/></svg></span><div><h3>Domain-by-domain analysis</h3><p>How the school is doing across the six domains of the framework.</p></div></li>
+            <li><span class="card-icon"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M12 4.5l8.5 14.5h-17L12 4.5z"/><path d="M12 10v4M12 16.6v.1"/></svg></span><div><h3>Early risk identification</h3><p>Possible physical or emotional barriers to learning, flagged before they grow.</p></div></li>
+            <li><span class="card-icon"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M9 7h10M9 12h10M9 17h10"/><path d="M5 7h.01M5 12h.01M5 17h.01"/></svg></span><div><h3>Practical recommendations</h3><p>Clear, structured next steps written for school leadership.</p></div></li>
+          </ul>
+          <div class="section-foot">
+            <a class="btn btn-secondary" href="rshs-score/">Understand the RSHS Score</a>
+          </div>
         </div>
+        <div class="score-panel" role="group" aria-label="Illustrative score example">
+          <span class="score-tag">Illustrative overview score</span>
+          <svg class="gauge" viewBox="0 0 240 136" aria-hidden="true" focusable="false"><path d="M 24 120 A 96 96 0 0 1 216 120" fill="none" stroke="#ece2f7" stroke-width="18" stroke-linecap="round"/><path class="gauge-fill" d="M 24 120 A 96 96 0 0 1 205.5 76.4" fill="none" stroke="#6b24b2" stroke-width="18" stroke-linecap="round"/><circle cx="205.5" cy="76.4" r="11" fill="#e0b15c" stroke="#fff" stroke-width="4"/><text x="120" y="106" text-anchor="middle" class="gauge-num">85</text><text x="120" y="130" text-anchor="middle" class="gauge-of">out of 100</text></svg>
+          <p class="visually-hidden">Illustrative score: 85 out of 100.</p>
+          <p class="small">This figure shows how a score is presented. It is not an actual result from any named school.</p>
+          <dl class="bands">
+            <div class="band"><dt>80–100</dt><dd><strong>Excellent</strong>Students show strong physical and emotional readiness to learn.</dd></div>
+            <div class="band"><dt>60–79</dt><dd><strong>Moderate</strong>Some minor issues. Preventive workshops are recommended.</dd></div>
+            <div class="band"><dt>Under 60</dt><dd><strong>Needs attention</strong>Significant barriers to learning. Targeted clinical support is needed.</dd></div>
+          </dl>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="faq" aria-labelledby="faq-title">
+      <div class="wrap faq-grid">
+        <div class="section-head">
+          <p class="eyebrow">FAQ</p>
+          <h2 id="faq-title">Frequently Asked Questions</h2>
+          <p>Can't find your answer? <a href="contact/">Talk to the RECOUP Health team</a>.</p>
+        </div>
+        <div class="faq">
+            <details>
+              <summary>What is Second Bell?</summary>
+              <div class="answer"><p>Second Bell is a school health and wellbeing programme by RECOUP Health. It combines preventive screening on campus, health education workshops, teacher training, and specialist support, so schools can better understand health issues that may affect learning.</p></div>
+            </details>
+            <details>
+              <summary>Who can enrol a school?</summary>
+              <div class="answer"><p>Enrolment is started by school leadership: owners, management, or the principal and leadership team. Suitability is discussed in a first consultation.</p><p>Parents and students cannot enrol a school on their own, but they are welcome to share Second Bell with their school's leadership.</p></div>
+            </details>
+            <details>
+              <summary>What does the framework cover?</summary>
+              <div class="answer"><p>Second Bell looks at student wellbeing across six connected domains: physical readiness, attention and effort, emotional balance, digital and lifestyle habits, adolescent health, and sports safety. A difficulty in one area, such as poor sleep, often affects another. <a href="framework/">Explore the framework</a>.</p></div>
+            </details>
+            <details>
+              <summary>Will the programme disrupt regular classes?</summary>
+              <div class="answer"><p>It is designed not to. Activities are planned around your existing timetable in the first consultation, with minimal administrative work for staff. The school stays in control throughout.</p></div>
+            </details>
+            <details>
+              <summary>What does preventive screening involve?</summary>
+              <div class="answer"><p>Non-invasive checks carried out on campus. These include EPHR mapping, postural and biomechanical checks, and vision and basic hearing checks.</p></div>
+            </details>
+            <details>
+              <summary>What happens when a concern is identified?</summary>
+              <div class="answer"><p>The school receives recommendations for suitable next steps. Where appropriate, a student can be directed to further assessment or support, for example from paediatric specialists, child psychologists, or speech and occupational therapists.</p></div>
+            </details>
+            <details>
+              <summary>What does the school receive?</summary>
+              <div class="answer"><p>After baseline screening, school leadership receives the first RECOUP School Health Score, along with campus-wide insights, a domain-by-domain analysis, early identification of possible risks, and practical recommendations. <a href="rshs-score/">Read about the score</a>.</p></div>
+            </details>
+            <details>
+              <summary>Does Second Bell replace a medical consultation?</summary>
+              <div class="answer"><p>No. Classroom observations and screening can show that something needs a closer look, but they are not a diagnosis. Diagnosis and treatment must come from an appropriate healthcare professional.</p></div>
+            </details>
+            <details>
+              <summary>How can a school discuss programme suitability?</summary>
+              <div class="answer"><p>Contact the RECOUP Health team on <a href="tel:+919845155449">+91 98451 55449</a>, email <a href="mailto:connect@recoup.health">connect@recoup.health</a>, message us on WhatsApp, or use the <a href="contact/">enquiry form</a>.</p></div>
+            </details>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact" id="contact" aria-labelledby="contact-title">
+      <span id="talk"></span>
+      <div class="wrap contact-grid">
+        <div class="contact-copy">
+          <div>
+            <p class="eyebrow">Contact</p>
+            <h2 id="contact-title">Let's Explore Whether Second Bell Fits Your School.</h2>
+          </div>
+          <p class="lede">Start with a conversation about your school's needs, priorities, and existing schedule. The RECOUP Health team can help you understand the programme and discuss the next steps.</p>
+          <div class="actions">
+            <a class="btn btn-primary" href="mailto:connect@recoup.health?subject=Discussing%20Second%20Bell%20for%20our%20school"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><rect x="3.75" y="5.75" width="16.5" height="12.5" rx="2"/><path d="M4.5 7l7.5 6 7.5-6"/></svg>Discuss Your School's Needs</a>
+            <a class="btn btn-secondary" href="https://wa.me/919845155449?text=Hello%2C%20I%20lead%20a%20school%20and%20would%20like%20to%20discuss%20enrolling%20in%20Second%20Bell." target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path fill="currentColor" d="M20.52 3.48A11.8 11.8 0 0 0 12.04 0C5.5 0 .2 5.3.2 11.84c0 2.09.55 4.13 1.59 5.93L0 24l6.4-1.67a11.8 11.8 0 0 0 5.64 1.43h.01c6.54 0 11.84-5.3 11.84-11.84 0-3.16-1.23-6.13-3.37-8.44zM12.05 21.3h-.01a9.8 9.8 0 0 1-5-1.37l-.36-.21-3.8 1 .99-3.7-.23-.38a9.78 9.78 0 0 1-1.5-5.2c0-5.4 4.4-9.8 9.82-9.8 2.62 0 5.08 1.02 6.93 2.88a9.74 9.74 0 0 1 2.87 6.93c0 5.41-4.4 9.81-9.81 9.81zm5.38-7.34c-.29-.15-1.74-.86-2.01-.96-.27-.1-.47-.15-.66.15-.2.29-.76.95-.93 1.15-.17.2-.34.22-.63.07-.29-.14-1.22-.45-2.32-1.43-.86-.76-1.44-1.7-1.61-1.99-.17-.29-.02-.45.13-.59.13-.13.29-.34.44-.51.15-.17.2-.29.29-.49.1-.2.05-.37-.02-.51-.08-.15-.66-1.6-.91-2.19-.24-.57-.48-.5-.66-.5h-.56c-.2 0-.51.07-.78.37-.27.29-1.02 1-1.02 2.43 0 1.43 1.04 2.81 1.19 3 .15.2 2.05 3.13 4.97 4.39.69.3 1.24.48 1.66.61.7.22 1.33.19 1.83.12.56-.08 1.74-.71 1.98-1.4.25-.68.25-1.27.17-1.4-.07-.12-.27-.2-.56-.34z"/></svg>Contact Us on WhatsApp</a>
+          </div>
+          <ul class="contact-list">
+            <li><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M6.6 4.5h2.6l1.3 3.6-1.8 1.2a10 10 0 0 0 6 6l1.2-1.8 3.6 1.3v2.6a1.6 1.6 0 0 1-1.7 1.6A14.5 14.5 0 0 1 5 6.2a1.6 1.6 0 0 1 1.6-1.7z"/></svg><a href="tel:+919845155449">+91 98451 55449</a></li>
+            <li><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><rect x="3.75" y="5.75" width="16.5" height="12.5" rx="2"/><path d="M4.5 7l7.5 6 7.5-6"/></svg><a href="mailto:connect@recoup.health">connect@recoup.health</a></li>
+            <li><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.5s-6-5.6-6-10.5a6 6 0 0 1 12 0c0 4.9-6 10.5-6 10.5z"/><circle cx="12" cy="10" r="2.2"/></svg><span>Clinics in Bengaluru, including Bellandur and Jayanagar</span></li>
+          </ul>
+        </div>
+        <form class="form" data-form novalidate aria-labelledby="form-title">
+          <div>
+            <h3 id="form-title">Send an enquiry</h3>
+            <p class="form-note">For school leadership. This opens an email to connect@recoup.health with your details filled in.</p>
+          </div>
+          <div class="form-split">
+            <label class="field"><span>Full name</span><input name="name" autocomplete="name" required aria-describedby="err-name"><small class="err" id="err-name"></small></label>
+            <label class="field"><span>School name</span><input name="school" autocomplete="organization" required aria-describedby="err-school"><small class="err" id="err-school"></small></label>
+          </div>
+          <div class="form-split">
+            <label class="field"><span>Email</span><input name="email" type="email" autocomplete="email" required aria-describedby="err-email"><small class="err" id="err-email"></small></label>
+            <label class="field"><span>Phone</span><input name="phone" type="tel" autocomplete="tel" inputmode="tel" required aria-describedby="err-phone"><small class="err" id="err-phone"></small></label>
+          </div>
+          <label class="field"><span>Your role and what you'd like to discuss <em>(optional)</em></span><textarea name="message" rows="3"></textarea></label>
+          <button class="btn btn-primary" type="submit">Send Enquiry</button>
+          <p class="form-status" data-status role="status"></p>
+        </form>
       </div>
     </section>
   </main>
 
   <footer class="site-footer">
-    <div class="wrap footer-grid">
-      <div class="footer-brand">
-        <a class="brand" href="./">
-          <img class="brand-logo" src="assets/logo/second-bell-logo.jpg" alt="Second Bell" width="1080" height="1080">
-        </a>
-        <p>A program by RECOUP Health.</p>
-      </div>
-      <nav class="footer-nav" aria-label="Footer">
-        <p class="footer-label">Explore</p>
-        <a href="./" aria-current="page">Overview</a>
-        <a href="framework/">Framework</a>
-        <a href="program/">Program</a>
-        <a href="interventions/">Interventions</a>
-        <a href="how-it-works/">How it works</a>
-        <a href="rshs-score/">RSHS</a>
-      </nav>
-      <div class="footer-contact">
-        <p class="footer-label">Contact</p>
-        <p><a href="tel:+919845155449">+91 98451 55449</a></p>
-        <p><a href="mailto:connect@recoup.health">connect@recoup.health</a></p>
-        <p><a href="https://wa.me/919845155449?text=Hello%2C%20I%20lead%20a%20school%20and%20would%20like%20to%20discuss%20enrolling%20in%20Second%20Bell." rel="noopener noreferrer">WhatsApp</a></p>
-        <p>Clinics in Bengaluru, including Bellandur and Jayanagar. Street addresses are on the <a href="https://www.recoup.health/contact">RECOUP contact page</a>.</p>
-      </div>
-    </div>
     <div class="wrap">
-      <p class="copy">© <span data-year>2026</span> RECOUP Health.</p>
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a class="brand" href="./"><img src="assets/logo/second-bell-logo-wide.webp" alt="Second Bell, home" width="360" height="209" loading="lazy"></a>
+          <p>A school health and wellbeing programme by RECOUP Health.</p>
+        </div>
+        <nav class="footer-col" aria-label="About Second Bell">
+          <p class="footer-label">Second Bell</p>
+          <a href="what-is-second-bell/">What Is Second Bell?</a>
+          <a href="framework/">The Framework</a>
+          <a href="who-it-is-for/">Who Is It For?</a>
+          <a href="why-second-bell/">Why Second Bell?</a>
+          <a href="faq/">FAQ</a>
+        </nav>
+        <nav class="footer-col" aria-label="Programme">
+          <p class="footer-label">Programme</p>
+          <a href="program/">School Programme</a>
+          <a href="interventions/">Interventions</a>
+          <a href="how-it-works/">How It Works</a>
+          <a href="rshs-score/">School Health Score</a>
+          <a href="contact/">Contact</a>
+        </nav>
+        <div class="footer-col">
+          <p class="footer-label">Contact</p>
+          <a href="tel:+919845155449">+91 98451 55449</a>
+          <a href="mailto:connect@recoup.health">connect@recoup.health</a>
+          <a href="https://wa.me/919845155449?text=Hello%2C%20I%20lead%20a%20school%20and%20would%20like%20to%20discuss%20enrolling%20in%20Second%20Bell." target="_blank" rel="noopener noreferrer">WhatsApp</a>
+          <p>Clinics in Bengaluru, including Bellandur and Jayanagar. Addresses are on the <a href="https://www.recoup.health/contact">RECOUP contact page</a>.</p>
+        </div>
+      </div>
+      <div class="footer-base">
+        <p>Second Bell screening and classroom observations do not replace diagnosis or treatment by a qualified healthcare professional.</p>
+        <p>© <span data-year>2026</span> RECOUP Health</p>
+      </div>
     </div>
   </footer>
-  <a class="dock" href="how-it-works/#talk">Enroll your school</a>
-  <a class="whatsapp" href="https://wa.me/919845155449?text=Hello%2C%20I%20lead%20a%20school%20and%20would%20like%20to%20discuss%20enrolling%20in%20Second%20Bell." rel="noopener noreferrer">
-    <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
-      <path fill="currentColor" d="M20.52 3.48A11.8 11.8 0 0 0 12.04 0C5.5 0 .2 5.3.2 11.84c0 2.09.55 4.13 1.59 5.93L0 24l6.4-1.67a11.8 11.8 0 0 0 5.64 1.43h.01c6.54 0 11.84-5.3 11.84-11.84 0-3.16-1.23-6.13-3.37-8.44zM12.05 21.3h-.01a9.8 9.8 0 0 1-5-1.37l-.36-.21-3.8 1 .99-3.7-.23-.38a9.78 9.78 0 0 1-1.5-5.2c0-5.4 4.4-9.8 9.82-9.8 2.62 0 5.08 1.02 6.93 2.88a9.74 9.74 0 0 1 2.87 6.93c0 5.41-4.4 9.81-9.81 9.81zm5.38-7.34c-.29-.15-1.74-.86-2.01-.96-.27-.1-.47-.15-.66.15-.2.29-.76.95-.93 1.15-.17.2-.34.22-.63.07-.29-.14-1.22-.45-2.32-1.43-.86-.76-1.44-1.7-1.61-1.99-.17-.29-.02-.45.13-.59.13-.13.29-.34.44-.51.15-.17.2-.29.29-.49.1-.2.05-.37-.02-.51-.08-.15-.66-1.6-.91-2.19-.24-.57-.48-.5-.66-.5h-.56c-.2 0-.51.07-.78.37-.27.29-1.02 1-1.02 2.43 0 1.43 1.04 2.81 1.19 3 .15.2 2.05 3.13 4.97 4.39.69.3 1.24.48 1.66.61.7.22 1.33.19 1.83.12.56-.08 1.74-.71 1.98-1.4.25-.68.25-1.27.17-1.4-.07-.12-.27-.2-.56-.34z"/>
-    </svg>
-    <span class="whatsapp-label">WhatsApp</span>
-  </a>
+  <a class="whatsapp" href="https://wa.me/919845155449?text=Hello%2C%20I%20lead%20a%20school%20and%20would%20like%20to%20discuss%20enrolling%20in%20Second%20Bell." target="_blank" rel="noopener noreferrer" aria-label="Contact RECOUP Health on WhatsApp"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path fill="currentColor" d="M20.52 3.48A11.8 11.8 0 0 0 12.04 0C5.5 0 .2 5.3.2 11.84c0 2.09.55 4.13 1.59 5.93L0 24l6.4-1.67a11.8 11.8 0 0 0 5.64 1.43h.01c6.54 0 11.84-5.3 11.84-11.84 0-3.16-1.23-6.13-3.37-8.44zM12.05 21.3h-.01a9.8 9.8 0 0 1-5-1.37l-.36-.21-3.8 1 .99-3.7-.23-.38a9.78 9.78 0 0 1-1.5-5.2c0-5.4 4.4-9.8 9.82-9.8 2.62 0 5.08 1.02 6.93 2.88a9.74 9.74 0 0 1 2.87 6.93c0 5.41-4.4 9.81-9.81 9.81zm5.38-7.34c-.29-.15-1.74-.86-2.01-.96-.27-.1-.47-.15-.66.15-.2.29-.76.95-.93 1.15-.17.2-.34.22-.63.07-.29-.14-1.22-.45-2.32-1.43-.86-.76-1.44-1.7-1.61-1.99-.17-.29-.02-.45.13-.59.13-.13.29-.34.44-.51.15-.17.2-.29.29-.49.1-.2.05-.37-.02-.51-.08-.15-.66-1.6-.91-2.19-.24-.57-.48-.5-.66-.5h-.56c-.2 0-.51.07-.78.37-.27.29-1.02 1-1.02 2.43 0 1.43 1.04 2.81 1.19 3 .15.2 2.05 3.13 4.97 4.39.69.3 1.24.48 1.66.61.7.22 1.33.19 1.83.12.56-.08 1.74-.71 1.98-1.4.25-.68.25-1.27.17-1.4-.07-.12-.27-.2-.56-.34z"/></svg></a>
   <script src="js/main.js" defer></script>
 </body>
 </html>
